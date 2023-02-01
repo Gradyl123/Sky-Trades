@@ -1,0 +1,225 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Monospace;
+}
+
+body{
+    margin:auto;
+}
+
+a{
+    text-decoration: none;
+    
+    color: skyblue;
+    
+}
+.brand{
+    flex:1;
+    font-size: 1.5rem;
+    user-select: none;
+    color: skyblue;
+    margin-top: 15px;
+    margin-left: 15px;
+    list-style: NONE;
+}
+
+.list{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    
+    
+}
+
+.list-items{
+    list-style-type: none;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+
+
+.container-1{
+    text-align: center;
+    
+}
+.container-3{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    
+   }
+
+
+.intro{
+    color: skyblue;
+    margin-top: 15px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    color:skyblue;
+    margin-top: 15px;
+    font-size: 15px;
+    
+}
+
+.button{
+    margin-top: 25px;
+    border:none;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 8px;
+    
+}
+
+.img{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: 15px;
+    font-family: arial;
+    
+
+    
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+
+}
+
+span{
+    font-size: 15px;
+    padding: 5px;
+    color:skyblue;
+    
+}
+
+
+.features{
+    text-align: center;
+}
+
+footer{
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.footer-content h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+
+}
+
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    
+}
+
+.socials{
+    line-height: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+   
+}
+
+.socials li {
+    margin: 0 10px;
+    
+}
+
+.socials a{
+    text-decoration: none;
+    
+}
+
+.socials a i{
+    font-size:1.1rem;
+    transition: color .4s ease;
+    
+}
+.socials a:hover i {
+    color:aqua;
+}
+
+
+.footer-bottom{
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+
+}
+
+.footer-bottom{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+
+}
+
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+
+ul{
+    
+    list-style: none;
+}
+
+a{
+    padding: 2px;
+    
+}
+
+h3{
+    color: skyblue;
+}
